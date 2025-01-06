@@ -14,7 +14,7 @@ namespace mpAPINasa.Services
         {
             MPapod dto = null;
             HttpResponseMessage response;
-            string requestUrl = $"https://api.nasa.gov/planetary/apod?date={dt.ToString("yyyy-MMdd")}&api_key=GXvdsvIUmbJdc0iAbaRv3xhImbqee3f9sVbRkeTw";
+            string requestUrl = $"https://api.nasa.gov/planetary/apod?date={dt.ToString("yyyy-MM-dd")}&api_key=GXvdsvIUmbJdc0iAbaRv3xhImbqee3f9sVbRkeTw";
             try
             {
                 HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, requestUrl);

@@ -10,6 +10,6 @@
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:Views.MPApodPage}"
-        Route="MainPage" />
+        Route="MPApodPage" />
 
 </Shell>
